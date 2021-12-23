@@ -46,7 +46,7 @@ void setup() {
   display.setTextColor(WHITE);
   display.setCursor(20,15);
   display.setFont(&FreeSansBold9pt7b);
-  display.println("ImasiGuy");          // Splash
+  display.println("ImsaiGuy");          // Splash
   display.setFont();
   display.display();
   delay(2000);
