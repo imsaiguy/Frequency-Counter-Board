@@ -96,7 +96,7 @@ void calibration(){
     cal = 10.000 / uncalfreq;           // calculate error, new cal factor
     EEPROM.put(1,cal);                  // store it
     display.clearDisplay();
-    display.setCursor(0,0);
+    display.setCursor(0,15);
     display.setFont(&FreeSansBold9pt7b);
     display.println("Cal Complete");
     display.setFont();
